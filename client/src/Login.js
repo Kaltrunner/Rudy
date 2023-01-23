@@ -1,19 +1,14 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop"
 
-function Login({ user, setUser }) {
+function Login({ setUser }) {
 
     
     const [username, setUserName] = useState("")
     const [password, setPassword] = useState("")
     const [error, setError] = useState("")
-
     const nav = useNavigate()
-
-    // const handleLogin = (e) => {
-    //     e.preventDefault()
-    //     console.log("submit!")
-    // }
 
     function handleLogin(e) {
         e.preventDefault()
@@ -29,7 +24,7 @@ function Login({ user, setUser }) {
               nav("/")
             })
           } else {
-            r.json().then((err) => setError(alert(err="You must create an account to Log in. Thanks!")))
+            r.json().then((err) => setError(alert(err="Looks like you entered the wrong user name and/or password. Thanks!")))
           }
         })
         setUserName("")
@@ -49,8 +44,6 @@ function Login({ user, setUser }) {
                 <div className="button-box" >
                     <div id="btn" ></div>
 
-                    {/* <Link to="/Signup" ><button type="button" className="toggle-button"  ><strong>Create an account!</strong></button></Link> */}
-                
                 </div>
             
             <form onSubmit={handleLogin} id="login" className="input-group" >
@@ -72,19 +65,18 @@ function Login({ user, setUser }) {
                 placeholder="password" 
                 name="password" required/>
 
-                {/* <input type="checkbox" className="check-box" /> <span>Remember my Password</span> */}
-
                 <Link to="/Signup" ><button type="button" className="toggle-button"  ><strong>Create an account!</strong></button></Link>
 
                 <button 
                 type="submit" 
                 className="submit-btn" onSubmit={handleLogin} >Log in</button>
 
-                <Link to="/" id="landing-secret-button" ><p>khsjbfkjsn</p></Link>
+                {/* <Link to="/" id="landing-secret-button" ><p>khsjbfkjsn</p></Link> */}
 
             </form>
            
             </div>
+            <ScrollToTop />
             
         </div>
     )

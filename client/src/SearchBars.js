@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import CompHeader from "./CompHeader"
 import CompFooter from "./CompFooter"
+import ScrollToTop from "./ScrollToTop"
 
 function SearchBars() {
 
@@ -202,6 +203,7 @@ function SearchBars() {
                 </div>
 
             <CompFooter />
+            <ScrollToTop />
 
         </div>
     )

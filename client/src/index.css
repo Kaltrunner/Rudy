@@ -459,7 +459,6 @@ Link.active {
   color: #101820;
   font-size: 44px;
   border: 2px solid;
-  /* outline: 1px; */
   text-decoration: none;
   cursor: default;
   transition: all 0.15s ease-in-out 0s;
@@ -605,8 +604,9 @@ Link.active {
 
   .button-div {
     height: 40rem;
+    width: 82rem;
     border-radius: 2px;
-    margin: 4rem;
+    margin: 2rem;
     background-color: #c0abff;
   }
   .button-div2 {
@@ -3210,3 +3210,33 @@ Link.active {
   #hidden-page-link {
     cursor: default;
   }
+
+  .under-line {
+  color: #18272F;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  color: #121c26;
+}
+
+.under-line::before {
+  content: '';
+  position: absolute;
+  width: 680px;
+  height: 4px;
+  border-radius: 8px;
+  background-color: #18272F;
+  bottom: 0;
+  left: 360px;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform .8s ease-in-out;
+  text-align: center;
+}
+
+.under-line:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+  text-align: center;
+}

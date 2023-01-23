@@ -1,5 +1,6 @@
 import CompHeader from "./CompHeader";
 import CompFooter from "./CompFooter";
+import ScrollToTop from "./ScrollToTop"
 
 function ColorGrids() {
   return (
@@ -1114,6 +1115,7 @@ function ColorGrids() {
 </div>
 
       <CompFooter />
+      <ScrollToTop />
     </div>
   );
 }

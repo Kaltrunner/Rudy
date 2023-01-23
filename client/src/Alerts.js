@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CompHeader from "./CompHeader";
 import CompFooter from "./CompFooter";
+import ScrollToTop from "./ScrollToTop"
 
 function Alerts() {
 
@@ -237,6 +238,7 @@ function Alerts() {
                    ) }
 
             <CompFooter />
+            <ScrollToTop />
 
         </div>
     )

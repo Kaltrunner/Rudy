@@ -1,4 +1,5 @@
 import Header from "./Header"
+import ScrollToTop from "./ScrollToTop"
 
 function Introduction() {
     return (
@@ -21,6 +22,7 @@ function Introduction() {
                 <br/>
                 <h5>Thank you for using .Rudy</h5>
             </div>
+            <ScrollToTop />
         </div>
     )
 }

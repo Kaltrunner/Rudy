@@ -1,4 +1,5 @@
 import Header from "./Header"
+import ScrollToTop from "./ScrollToTop"
 
 function Rules() {
     return (
@@ -43,6 +44,7 @@ function Rules() {
                         <br/>
                     </p>
             </div>
+            <ScrollToTop />
         </div>
     )
 }

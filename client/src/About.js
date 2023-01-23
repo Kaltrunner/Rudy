@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import CompHeader from "./CompHeader";
 import CompFooter from "./CompFooter";
+import ScrollToTop from "./ScrollToTop"
 
 function About() {
     return (
@@ -16,11 +17,14 @@ function About() {
 
             <div className="button-div" ></div>
 
+            <h2 className="under-line" >CONGRATULATIONS YOU HAVE REACHED A HIDDEN PAGE!</h2>
+
             <div className="fun-container" >
                 <Link id="hidden-page-link" to="/" ><div className="fun-thing" ></div></Link>
             </div>
 
         <CompFooter />
+        <ScrollToTop />
 
         </div>
     )

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import RangeSliderExample from "./RangeSliderExample"
 import CompHeader from "./CompHeader"
 import CompFooter from "./CompFooter"
+import ScrollToTop from "./ScrollToTop"
 
 function RangeSliders() {
 
@@ -256,6 +257,7 @@ function RangeSliders() {
             </div>
 
             <CompFooter />
+            <ScrollToTop />
 
         </div>
     )

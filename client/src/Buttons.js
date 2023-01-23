@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import CompHeader from "./CompHeader"
 import CompFooter from "./CompFooter"
+import ScrollToTop from "./ScrollToTop"
 
 function Buttons() {
 
@@ -593,6 +594,7 @@ function Buttons() {
 
 
             <CompFooter />
+            <ScrollToTop />
 
         </div>
     )

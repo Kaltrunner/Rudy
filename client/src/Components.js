@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Header from "./Header"
 import ComponentsFooter from "./ComponentsFooter"
+import ScrollToTop from "./ScrollToTop"
 
 function Components() {
     return (
@@ -38,12 +39,11 @@ function Components() {
 
                     <Link to="/Toggles" className="comp-link-list" ><li className="comp-link" >Toggles</li><br/></Link>
 
-                    {/* <Link to="" className="comp-link-list" ><li></li><br/></Link> */}
-
                 </ul>
             </div>
 
         <ComponentsFooter />
+        <ScrollToTop />
 
         </div>
     )

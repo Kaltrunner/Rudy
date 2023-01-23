@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import React, { useState } from 'react';
 import CompHeader from "./CompHeader";
 import CompFooter from "./CompFooter";
+import ScrollToTop from "./ScrollToTop"
 
 function DropDowns() {
 
@@ -208,6 +209,7 @@ function DropDowns() {
         </div> */}
 
             <CompFooter />
+            <ScrollToTop />
 
         </div>
     )

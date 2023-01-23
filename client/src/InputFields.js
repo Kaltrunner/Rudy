@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import CompHeader from "./CompHeader"
 import CompFooter from "./CompFooter"
+import ScrollToTop from "./ScrollToTop"
 
 function InputFields() {
 
@@ -252,6 +253,7 @@ function InputFields() {
             </div>
             
             <CompFooter />
+            <ScrollToTop />
 
         </div>
     )

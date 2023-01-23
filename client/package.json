@@ -16,6 +16,7 @@
     "react-router-dom": "^6.6.2",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.9",
+    "react-scroll-to-top": "^3.0.0",
     "react-slide-routes": "^3.0.3",
     "web-vitals": "^1.1.2"
   },

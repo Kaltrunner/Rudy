@@ -1,3 +1,15 @@
+Welcome to Rudy, a design system website for your next big project!
+
+Rudy is designed to help developers and designers create consistent, accessible, and user-friendly interfaces. It provides a comprehensive set of guidelines, components, and tools that can be used to create beautiful and functional designs.
+
+The website is organized into different sections, such as typography, color, and layout, which provide detailed information on how to use the design system. The components section includes pre-built UI elements that can be easily integrated into your project. The tools section includes design resources, such as templates and icon libraries.
+
+Rudy is fully responsive and works on all devices, from desktops to smartphones. It's built with accessibility in mind, making sure that all users, regardless of their abilities, can use your website.
+
+Getting started with Rudy is easy. Simply visit the website and start exploring the different sections. You can also download the design system and start incorporating it into your project.
+
+If you have any questions or need help, please don't hesitate to reach out to our team. We're here to support you and ensure that your project is a success!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +80,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+

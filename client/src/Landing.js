@@ -1,15 +1,18 @@
-import { Link } from "react-router-dom";
-// import { Link } from "react-scroll";
-// import Header from "./Header";
+import { Link, useNavigate } from "react-router-dom";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop"
 
 function Landing({ setUser }) {
+
+    const nav = useNavigate()
+
 
     function handleLogoutClick() {
         fetch("/logout", {method: "DELETE"})
         .then((r) => {
             if (r.ok) {
                 setUser(null)
+                nav("/login")
             }
         });
     }
@@ -56,6 +59,7 @@ function Landing({ setUser }) {
                 </div>
             </div>
             <Footer />
+            <ScrollToTop />
         </div>
     )
 }

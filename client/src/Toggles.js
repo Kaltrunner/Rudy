@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import CompHeader from "./CompHeader"
 import CompFooter from "./CompFooter"
+import ScrollToTop from "./ScrollToTop"
 
 function Toggles() {
 
@@ -425,6 +426,7 @@ function Toggles() {
         </div>
 
             <CompFooter />
+            <ScrollToTop />
 
         </div>
     )
