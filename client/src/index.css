@@ -3203,14 +3203,21 @@ Link.active {
     height: 26rem;
     margin: 12rem;
     border-radius: 50%;
+    border: 4px solid rgba(148,187,233,1);
     background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 62%, rgba(195,180,217,1) 70%, rgba(184,182,221,1) 76%, rgba(148,187,233,1) 83%, rgba(255,255,255,1) 97%); 
-    box-shadow: 0 0 8px 4px rgba(148,187,233,1);  
+    background: radial-gradient(circle, rgba(255,255,255,1) 58%, rgba(195,180,217,1) 68%, rgba(184,182,221,1) 42%, rgba(148,187,233,1) 80%, rgba(255,255,255,1) 98%); 
+    box-shadow: 0 0 20px 12px rgba(148,187,233,1);  
   }
   #hidden-page-link {
     cursor: default;
   }
 
+  .under-line-div {
+    width: 42rem;
+    height: 3rem;
+    text-align: center;
+    margin: 0 auto;
+  }
   .under-line {
   color: #18272F;
   position: relative;
@@ -3223,12 +3230,12 @@ Link.active {
 .under-line::before {
   content: '';
   position: absolute;
-  width: 680px;
-  height: 4px;
+  width: 100%;
+  height: 3px;
   border-radius: 8px;
   background-color: #18272F;
   bottom: 0;
-  left: 360px;
+  left: 0px;
   transform-origin: left;
   transform: scaleX(0);
   transition: transform .8s ease-in-out;

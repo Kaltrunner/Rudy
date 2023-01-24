@@ -89,8 +89,8 @@ function Signup({ setUser }) {
               className="toggle-button"
               id="not-log-in-link"
             >
-              Already have an account?
-              <strong id="log-in-link">Log in here!</strong>
+              Already have an account? 
+              <strong id="log-in-link"> Log in here!</strong>
             </button>
           </Link>
         </form>
