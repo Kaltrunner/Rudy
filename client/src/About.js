@@ -28,6 +28,13 @@ function About() {
         </Link>
       </div>
 
+      <div className="stacked-box-div" >
+        <div className="stacked-box-1" ></div>
+        <div className="stacked-box-2" ></div>
+        <div className="stacked-box-3" ></div>
+        <div className="stacked-box-4" ></div>
+      </div>
+
       <CompFooter />
       <ScrollToTop />
     </div>

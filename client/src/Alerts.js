@@ -105,7 +105,7 @@ function Alerts() {
 
                 </div>
 
-            </div>
+            {/* </div> */}
 
             {codeAlong ? (
                 <div className="code-along-div">
@@ -236,7 +236,7 @@ function Alerts() {
                 </div>
             </div>
                    ) }
-
+</div>
             <CompFooter />
             <ScrollToTop />
 
