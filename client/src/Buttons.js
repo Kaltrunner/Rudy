@@ -209,7 +209,7 @@ function Buttons() {
                         <button className="small-button-example" id="small-primary-button" >Primary</button>
                         <button className="small-button-example" id="small-secondary-button" >Secondary</button>
                     
-                        <button className="small-button-example" id="small-other-button" >Disabled</button>
+                        <button className="small-button-example" id="small-other-button" >Rounded</button>
                     
                         <button className="small-button-example" id="small-warning-button" >Warning</button>
                         <button className="small-button-example" id="small-danger-button" >Danger</button>
@@ -503,13 +503,13 @@ function Buttons() {
                     <h4 className="button-field-h4" >Disabled button examples</h4>
 
                     <div className="button-example-div" >
-                        <button className="button-disabled-example" >Primary</button>
-                        <button className="button-disabled-example" id="secondarty-button-disabled" >Secondary</button>
+                        <button className="button-disabled-example" >Button</button>
+                        <button className="button-disabled-example" id="secondarty-button-disabled" >Button</button>
                     
-                        <button className="button-disabled-example" id="other-button-disabled" >Rounded</button>
+                        <button className="button-disabled-example" id="other-button-disabled" >Button</button>
                     
-                        <button className="button-disabled-example" >Warning</button>
-                        <button className="button-disabled-example" >Danger</button>
+                        <button className="button-disabled-example" >Button</button>
+                        <button className="button-disabled-example" >Button</button>
                     </div>
                 </div>
 
