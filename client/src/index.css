@@ -1651,7 +1651,8 @@ Link.active {
     border-top: none;
     border-left: none;
     border-right: none;
-    /* border-radius: 2px; */
+    border: 2px solid #101820;
+    border-radius: 1px;
     cursor: pointer;
   }
 
@@ -1886,7 +1887,6 @@ Link.active {
     margin-top: 32px;
     margin-left: 72px;
     margin-bottom: 144px;
-    background-color: #101820;
   }
 
   .color-grid-2 {
@@ -1897,9 +1897,8 @@ Link.active {
     flex-wrap: nowrap;
     border-radius: 2px;
     margin-top: 32px;
-    margin-left: 72px;
+    margin-left: 162px;
     margin-bottom: 144px;
-    background-color: #101820;
   }
 
   .color-grid-row {
@@ -2154,6 +2153,9 @@ Link.active {
 
   /*  Dark Grey Row Colors  */
 
+  #d-grey-1 {
+    background-color: #101820;
+  }
   #d-grey-2 {
     background-color: #272f36;
   }
@@ -3242,12 +3244,14 @@ Link.active {
   transform: scaleX(0);
   transition: transform .8s ease-in-out;
   text-align: center;
+  margin: 0 auto;
 }
 
 .under-line:hover::before {
   transform-origin: left;
   transform: scaleX(1);
   text-align: center;
+  margin: 0 auto;
 }
 
 .stacked-box-div {
