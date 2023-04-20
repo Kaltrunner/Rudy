@@ -27,13 +27,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #e5ddff;
 }
 
-
 * {
-  scroll-behavior: smooth;
-}
-
-html {
-  scroll-behavior: smooth;
   background-color: #f8f8f8;
 }
 
@@ -274,7 +268,7 @@ p {
   display: block;
   height: 100%;
   max-width: 1200px;
-  transition: box-shadow 0.1s ease 0s;
+  /* transition: box-shadow 0.1s ease 0s; */
 }
 
 .mission-statement-div {
@@ -319,12 +313,12 @@ p {
   cursor: crosshair;
   outline: 1px;
   text-decoration: none;
-  transition: all 0.15s ease-in-out 0s;
+  transition: all 0.15s ease-in-out;
 }
 .values-div:hover {
   outline: 1px solid;
   box-shadow: 10px 10px 0px 0px #101820;
-  transition: all 0.15s ease-in-out 0s;
+  transition: all 0.15s ease-in-out;
   transform: translateY(-4px);
 
 }
@@ -339,12 +333,12 @@ p {
   cursor: crosshair;
   outline: 1px;
   text-decoration: none;
-  transition: all 0.15s ease-in-out 0s;
+  transition: all 0.15s ease-in-out;
 }
 .rules-div:hover {
   outline: 1px solid;
   box-shadow: 10px 10px 0px 0px #101820;
-  transition: all 0.15s ease-in-out 0s;
+  transition: all 0.15s ease-in-out;
   transform: translateY(-4px);
 }
 
@@ -358,13 +352,13 @@ p {
   cursor: crosshair;
   outline: 1px;
   text-decoration: none;
-  transition: all 0.15s ease-in-out 0s;
+  transition: all 0.15s ease-in-out;
 }
 .components-div:hover {
   outline: 1px solid;
   text-decoration: none;
   box-shadow: 10px 10px 0px 0px #101820;
-  transition: all 0.15s ease-in-out 0s;
+  transition: all 0.15s ease-in-out;
   transform: translateY(-4px);
 }
 
