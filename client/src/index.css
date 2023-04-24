@@ -19,17 +19,14 @@ body::-webkit-scrollbar-thumb {
   border-radius: 6px;
   border: 2.5px solid var(--scrollbarBG);
 }
-/* body::-webkit-appearance {
-  webkit-appearance: none;
-} */
 
 ::selection {
   background-color: #e5ddff;
 }
 
-* {
+/* * {
   background-color: #f8f8f8;
-}
+} */
 
 body {
   background-color: #f8f8f8;
