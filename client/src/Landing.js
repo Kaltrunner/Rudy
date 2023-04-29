@@ -25,7 +25,7 @@ function Landing({ setUser }) {
             {/* { (user) ? <p>Welcome {user.username}!</p> :  <p> Please log-in or create an account, thank! </p> } */}
 
             <button onClick={handleLogoutClick} className="login-out-home-button" > 
-            <stong>log-out</stong>
+            log-out
              </button>
 
              </div>
