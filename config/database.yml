@@ -79,6 +79,27 @@ test:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: database_name_development
+  pool: 5
+  host: localhost
+  username: postgres_user_name
+  password: postgres_password
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: database_name_test
+  pool: 5
+  username: postgres_user_name
+  password: postgres_password
+
+staging:
+  url: <%= ENV['DATABASE_URL'] %>
+
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
