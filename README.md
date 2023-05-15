@@ -16,7 +16,7 @@ To get started with Rudy, simply clone this repository to your local machine. Yo
 
 bash
 Copy code
-git clone https://github.com/rudy-design-system/rudy.git
+git clone https://github.com/Kaltrunner/Rudy.git
 npm install --prefix client
 Once you have cloned the repository, you can use the following commands to run the application:
 
