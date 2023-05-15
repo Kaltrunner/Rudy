@@ -1,5 +1,3 @@
-
-.Rudy Design System GitHub Repository Read Me
 Welcome to the .Rudy Design System GitHub repository! This repository contains the source code and documentation for our design system, which is called .Rudy. .Rudy is a comprehensive design system that provides a set of guidelines, components, and tools to help you create consistent and high-quality digital products.
 
 What is Rudy?
